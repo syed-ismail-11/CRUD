@@ -1,0 +1,55 @@
+
+.App{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.students{
+  display:block;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input{
+  width: 290px;
+  padding: 10px;
+  border: 1px solid rgb(244, 142, 74);
+}
+.formBtn{
+  border: none;
+  padding: 7px;
+  background-color: rgb(244, 142, 74);
+  color: white;
+  font-weight: 800;
+  font-variant: small-caps;
+  font-size: medium;
+  cursor: pointer;
+}
+.homeBtns{
+  border: none;
+  padding: 7px;
+  background-color:  rgb(244, 142, 74);
+  color: white;
+  font-weight: 800;
+  font-variant: small-caps;
+  cursor: pointer;
+  justify-content: space-between;
+  margin-left: 1px;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 5px;
+}
+th, td {
+  background-color: #96D4D4;
+}
+
+
+
+
+
